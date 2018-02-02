@@ -203,7 +203,7 @@ __Manipulations__
 
 We immediately notice the columns are ```objects``` (strings).  Lets do the following:  
 
-* Replace white space between with underscores ```_```. ex: 'San Francisco' transformed to 'San_Francisco'
+* Replace white space with underscores between strings ```_```. ex: 'San Francisco' transformed to 'San_Francisco'
 * Replace dashes ```-``` with underscores ```_```.
 * Replace the '```*```' character with an empty space.
 * Delete the entire ```unnamed:_53``` column.
