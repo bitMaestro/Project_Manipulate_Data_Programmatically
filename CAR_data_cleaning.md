@@ -226,8 +226,8 @@ Here our function will replace all ```%``` characters with blank spaces and conv
 
 ```python
 def ss(a):
-    # a = define dataframe and column name in dot notation. ex: df.ca
-    # strips '%' from strings in cells
+    # 'a' referes to name of column to exectue function on
+    # strips '%' from strings in cells and converts data type to float
     df[a] = df[a].str.replace('%', '').astype(float)
     
     return #df[a]
