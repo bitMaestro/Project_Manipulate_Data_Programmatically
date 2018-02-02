@@ -221,7 +221,7 @@ del df['unnamed:_53']
 
 __Functions__
 
-Here our function will replace all ```%``` characters with blank spaces and convert the cell into a float.  We will run the function on each cell individually.
+Here our function will replace all ```%``` characters with blank spaces and convert the cell into a float.  We will run the function on each column individually.
 
 
 ```python
